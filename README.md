@@ -9,3 +9,8 @@ The goal is to accurately classify transactions as fraudulent or legitimate by p
 Dataset
 
 The dataset simulates 30 days of mobile money transactions (744 hourly steps) with the following features: transaction type (CASH-IN, CASH-OUT, DEBIT, PAYMENT, TRANSFER), transaction amount, origin/destination account balances before and after the transaction, and fraud labels. Fraudulent behavior in this dataset specifically targets account takeovers — draining funds via transfers followed by cash-outs.
+
+The dataset is too large to host here (500MB+). Download it directly from Kaggle:
+👉 https://www.kaggle.com/datasets/abhisek34/fraud-detect-data
+
+After downloading, place `Fraud.csv` in the root of the project directory before running the notebook.
